@@ -39,3 +39,6 @@ jobs:
 
 
           Challenge 3 GitHub Issue Test
+
+          git fetch origin
+git checkout 3-update-ci-pipeline
