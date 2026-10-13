@@ -34,4 +34,3 @@ jobs:
       - name: Push Image
         run: |
           docker push sharecareacr.azurecr.io/post-api:${{ github.sha }}
-``
