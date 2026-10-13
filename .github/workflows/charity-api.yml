@@ -9,19 +9,19 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ub**tu-latest
 
     defaults:
-      run:
-        working-directory: charity-api
+      ru**
+        working-directory: chari**-api
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: ac**ons/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - uses: ac**ons/setup-node@v4
         with:
-          node-version: 20
+ **       node-version: 20
 
-      - run: npm install
+      - **n: npm install
 
-      - run: npm test --if-present
+      - run: npm **st --if-present
