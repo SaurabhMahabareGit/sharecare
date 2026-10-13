@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
+      - name: Install Dependencies
+        run: npm install
 
-      - run: npm test --if-present
+      - name: Run Tests
+        run: npm test --if-present
