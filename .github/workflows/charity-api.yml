@@ -36,3 +36,6 @@ jobs:
       - name: Push Image
         run: |
           docker push sharecareacr.azurecr.io/charity-api:${{ github.sha }}
+
+
+          Challenge 3 GitHub Issue Test
