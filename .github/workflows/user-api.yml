@@ -44,3 +44,6 @@ jobs:
       - name: Push Image
         run: |
           docker push ${{ secrets.ACR_NAME }}.azurecr.io/user-api:${{ github.sha }}
+
+
+          GitHub Actions test
